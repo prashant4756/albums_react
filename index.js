@@ -1,11 +1,15 @@
 // import libraries
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
+
 // testing
 const App = () => (
-	//component nesting
-	<Header headerTitle={'Albums'} />
+	<View>
+		<Header headerTitle={'Albums'} />
+		<AlbumList />
+	</View>
 );
 
 // render component
