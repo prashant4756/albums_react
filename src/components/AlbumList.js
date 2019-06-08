@@ -31,7 +31,7 @@ class AlbumList extends Component {
     render() {
         console.log(this.state);
         return (
-            <ScrollView>
+            <ScrollView style={{ paddingBottom: 10 }}>
                 { this.renderAlbums() }
             </ScrollView>
         );
